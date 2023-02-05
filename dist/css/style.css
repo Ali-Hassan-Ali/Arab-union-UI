@@ -1,0 +1,27 @@
+body {
+    /*margin-bottom: 1000px;*/
+}
+.border-50 {
+    border-radius: 50%;
+}
+.border5px {
+    border-radius: 5px;
+}
+.bg-nav-transparent {
+    background-color: #622f11db;
+}
+
+.bg-events {
+    background-color: #bc7b37;
+}
+.bg-events-items {
+    background-color: #75441e;
+}
+.bg-events-icon {
+    background-color: #ea840f;
+}
+
+.my-10 {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}

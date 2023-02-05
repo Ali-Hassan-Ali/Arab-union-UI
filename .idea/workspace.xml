@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="130f1551-5cb0-4569-aa3e-737e7cdcbc38" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LCCT2kRP2S2DylQFf8Rtia3Qm2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/laragon/www/Taufcr/dist/js",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\Taufcr\dist\js" />
+      <recent name="C:\laragon\www\Taufcr\dist\css" />
+      <recent name="C:\laragon\www\Taufcr\dist\images\logos" />
+      <recent name="C:\laragon\www\Taufcr" />
+      <recent name="C:\laragon\www\Taufcr\dist" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\Taufcr\dist\images\sliders" />
+      <recent name="C:\laragon\www\Taufcr\dist\plugins\swiper" />
+      <recent name="C:\laragon\www\Taufcr\dist\css" />
+      <recent name="C:\laragon\www\Taufcr\dist\js" />
+      <recent name="C:\laragon\www\Taufcr\dist" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="130f1551-5cb0-4569-aa3e-737e7cdcbc38" name="Changes" comment="" />
+      <created>1675365688920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675365688920</updated>
+      <workItem from="1675365691135" duration="5794000" />
+      <workItem from="1675460161524" duration="269000" />
+      <workItem from="1675503904431" duration="4838000" />
+      <workItem from="1675546820016" duration="3362000" />
+      <workItem from="1675601944519" duration="2270000" />
+      <workItem from="1675612455602" duration="13179000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
