@@ -7,8 +7,9 @@
     <title>Home Page</title>
 
     <!-- Bootstrap CSS -->
-<!--    <link rel="stylesheet" href="dist/css/bootstrap@5.0.2.min.css" crossorigin="anonymous">-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--    <link rel="stylesheet" href="dist/css/bootstrap@5.0.2.min.css" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel='stylesheet' href='dist/plugins/swiper/swiper.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
@@ -18,7 +19,21 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+<!--loading pages-->
+<div class="ff d-flex text-center m-auto align-items-center">
+
+    <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+        Loading.....
+    </div>
+
+</div><!--end of loading-->
+
+<nav class="navbar main-nav navbar-expand-lg navbar-light bg-transparent fixed-top">
     <div class="container">
         <a class="navbar-brand text-light" href="/index.html">
             <img src="./dist/images/logos/Logo.png" alt="" width="150">
@@ -36,7 +51,7 @@
                     <a class="nav-link text-light" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Contact us</a>
+                    <a class="nav-link text-light" href="./contact.html">Contact us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-light" href="#">News</a>
@@ -177,8 +192,67 @@
     </div>
 </section>
 
+<section id="members" class="p-5 bg-members">
+    <div class="container-sm">
+        <h2 class="text-center my-5 fw-bold text-light">members</h2>
+        <div class="row">
+            <div class="col-12 col-lg-4 text-center text-light">
+
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                     preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777"/>
+                    <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+                </svg>
+
+                <h2>Heading</h2>
+                <p>Some representative placeholder content for the three columns of text below the carousel. This is the
+                    first column.</p>
+                <p>
+                    <a href="" class="text-white mr-2"><i class="fab fa-facebook fa-1x"></i></a>
+                    <a href="" class="text-white mr-2"><i class="fab fa-youtube"></i></a>
+                    <a href="" class="text-white mr-2"><i class="fab fa-twitter"></i></a>
+                </p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-12 col-lg-4 text-center text-light">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                     preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777"/>
+                    <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+                </svg>
+
+                <h2>Heading</h2>
+                <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second
+                    column.</p>
+                <p>
+                    <a href="" class="text-white mr-2"><i class="fab fa-facebook fa-1x"></i></a>
+                    <a href="" class="text-white mr-2"><i class="fab fa-youtube"></i></a>
+                    <a href="" class="text-white mr-2"><i class="fab fa-twitter"></i></a>
+                </p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-12 col-lg-4 text-center text-light">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                     preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777"/>
+                    <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+                </svg>
+
+                <h2>Heading</h2>
+                <p>And lastly this, the third column of representative placeholder content.</p>
+                <p>
+                    <a href="" class="text-white mr-2"><i class="fab fa-facebook fa-1x"></i></a>
+                    <a href="" class="text-white mr-2"><i class="fab fa-youtube"></i></a>
+                    <a href="" class="text-white mr-2"><i class="fab fa-twitter"></i></a>
+                </p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section>
+
 <footer id="footer" class="py-3 bg-events-items text-center text-white">
-<!--    <p class="mb-0 text-capitalize">&copy; all copy right reserved for Netflixify 2019</p>-->
+    <!--    <p class="mb-0 text-capitalize">&copy; all copy right reserved for Netflixify 2019</p>-->
     <div class="">
         <a href="" class="text-white mr-2"><i class="fab fa-facebook fa-1x"></i></a>
         <a href="" class="text-white mr-2"><i class="fab fa-youtube"></i></a>

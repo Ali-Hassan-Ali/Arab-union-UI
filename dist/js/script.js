@@ -1,14 +1,21 @@
 $(document).ready(function () {
 
+    $(window).on('load', function () {
+        $('.ff').fadeOut(5e3, function () {
+            $(this).remove('.ff');
+            $('body').css('overflow', 'auto');
+        });
+    });/*end of loading*/
+
     $(window).on('scroll', function () {
 
         if ($(this).scrollTop() > 100) {
 
-            $('.navbar').removeClass('bg-transparent').addClass('bg-nav-transparent')
+            $('.main-nav').removeClass('bg-transparent').addClass('bg-nav-transparent')
 
         } else {
 
-            $('.navbar').addClass('bg-transparent').removeClass('bg-nav-transparent')
+            $('.main-nav').addClass('bg-transparent').removeClass('bg-nav-transparent')
 
         }//end of else
 
